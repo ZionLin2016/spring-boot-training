@@ -1,0 +1,7 @@
+logging:
+  level:
+    ROOT: INFO
+    com:
+      lsd: DEBUG
+  file: E:/logs/aop.log
+
