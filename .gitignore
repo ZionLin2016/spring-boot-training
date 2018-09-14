@@ -7,3 +7,13 @@
 *.iml
 out
 gen
+
+
+.class
+.classpath
+.project
+build
+bin
+
+logs
+target
