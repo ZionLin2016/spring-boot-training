@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * @Author: LSD
+ * @Date: 2018/9/14
+ */
 @RestController
 public class StudentController {
 

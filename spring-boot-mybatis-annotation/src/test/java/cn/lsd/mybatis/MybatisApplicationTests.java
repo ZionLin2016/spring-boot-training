@@ -16,6 +16,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * @Author: LSD
+ * @Date: 2018/9/14
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MybatisApplicationTests {

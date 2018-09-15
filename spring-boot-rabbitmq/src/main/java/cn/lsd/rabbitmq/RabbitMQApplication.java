@@ -1,4 +1,4 @@
-package cn.lsd.mybatis;
+package cn.lsd.rabbitmq;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,15 +10,15 @@ import java.util.Arrays;
 
 /**
  * @Author: LSD
- * @Date: 2018/9/14
+ * @Date: 2018/9/15
  */
 @SpringBootApplication
-public class MyBatisApplication {
+public class RabbitMQApplication {
 
-	private static final Logger logger = LoggerFactory.getLogger(MyBatisApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(RabbitMQApplication.class);
 
 	public static void main(String[] args) {
-		final ConfigurableApplicationContext ctx = SpringApplication.run(MyBatisApplication.class, args);
+		final ConfigurableApplicationContext ctx = SpringApplication.run(RabbitMQApplication.class, args);
 		String[] beanNames = ctx.getBeanDefinitionNames();
 		Arrays.sort(beanNames);
 		for (String beanName : beanNames) {

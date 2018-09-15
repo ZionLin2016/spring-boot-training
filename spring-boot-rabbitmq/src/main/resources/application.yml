@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: lsd
+    password: 123456
+
+logging:
+  level:
+    ROOT: INFO
+    com:
+      lsd: DEBUG
+  file: E:/logs/rabbitmq.log
