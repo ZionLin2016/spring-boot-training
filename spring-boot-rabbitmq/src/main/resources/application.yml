@@ -8,6 +8,6 @@ spring:
 logging:
   level:
     ROOT: INFO
-    com:
+    cn:
       lsd: DEBUG
   file: E:/logs/rabbitmq.log
