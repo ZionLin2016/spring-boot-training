@@ -13,12 +13,12 @@ import java.util.Arrays;
  * @Date: 2018/9/14
  */
 @SpringBootApplication
-public class MyBatisApplication {
+public class Application {
 
-	private static final Logger logger = LoggerFactory.getLogger(MyBatisApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
-		final ConfigurableApplicationContext ctx = SpringApplication.run(MyBatisApplication.class, args);
+		final ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
 		String[] beanNames = ctx.getBeanDefinitionNames();
 		Arrays.sort(beanNames);
 		for (String beanName : beanNames) {

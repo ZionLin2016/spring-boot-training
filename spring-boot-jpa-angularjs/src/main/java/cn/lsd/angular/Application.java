@@ -13,12 +13,12 @@ import java.util.Arrays;
  * @Date: 2018/9/13
  */
 @SpringBootApplication
-public class AngularApplication {
+public class Application {
 
-    private static final Logger logger = LoggerFactory.getLogger(AngularApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
-        final ConfigurableApplicationContext ctx = SpringApplication.run(AngularApplication.class, args);
+        final ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
         for (String beanName : beanNames) {
